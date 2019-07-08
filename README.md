@@ -5,9 +5,14 @@ See:
 
 Contact info:
 Monteith Hall 231
+
 Department of Mathematics
+
 University of Connecticut
 Storrs, CT 06269
 
+
+
 email: firstname.lastname at uconn.edu
+
 [homepage](https://teitelbaum.math.uconn.edu)
