@@ -1,7 +1,7 @@
 ## Jeremy Teitelbaum
 
 See:
-- Blog on sabbatical work on Bioinformatics at [Cleverly Titled Blog](https://jeremy9959.github.io/Blog)
+- [Cleverly Titled Blog](https://jeremy9959.github.io/Blog) on bioinformatics, mostly from my sabbatical at the Jackson Laboratory in 2018-2019.
 - [Course Page](https://jeremy9959.github.io/Math-2710-Fall-2019) for Math 2710: Transition to Higher Mathematics at UConn, Fall of 2019
 
 Contact info:<br>
