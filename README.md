@@ -1,4 +1,4 @@
-## Jeremy Teitelbaum
+# Jeremy Teitelbaum
 
 See:
 - [Cleverly Titled Blog](https://jeremy9959.github.io/Blog) on data science, beginning with my sabbatical at
