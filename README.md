@@ -11,6 +11,10 @@ Fun:
 
 [Browse tSNE clustering of 5000 fashion-MNIST images](https://tsne-fashion.herokuapp.com)
 
+Software Carpentries Workshop:
+
+[Additional setup information for the Shell/Python/Git workshop on Jan 13, 2020](./swc.md)
+
 
 Contact info:<br>
 Monteith Hall 231<br>
