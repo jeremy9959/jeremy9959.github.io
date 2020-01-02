@@ -9,7 +9,8 @@ Work:
 
 Fun:
 
-[Browse tSNE clustering of 5000 fashion-MNIST images](https://tsne-fashion.herokuapp.com)
+[Browse tSNE clustering of 5000 fashion-MNIST images](https://tsne-fashion.herokuapp.com) -- hosted externally so takes
+a little time to start.
 
 Software Carpentries Workshop:
 
