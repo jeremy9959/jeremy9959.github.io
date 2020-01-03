@@ -5,6 +5,7 @@ Work:
 - [Cleverly Titled Blog](https://jeremy9959.github.io/Blog) on data science, beginning with my sabbatical at
 [The Jackson Laboratory for Genomic Medicine](http:/www.jax.org) during Academic Year 2018-2019.
 - [Talks](https://github.uconn.edu/pages/jet08013/Talks/)
+- [Clustering Seminar, Fall, 2019](http://jeremy9959.net/Clustering-Seminar)
 
 Teaching:
 - [Transition to Higher Mathematics](https://jeremy9959.net/Math-2710-Fall-2019), UConn, Fall, 2019
