@@ -18,7 +18,8 @@ a little time to start.
 
 Software Carpentries Workshop:
 
-[Additional setup information for the Shell/Python/Git workshop on Jan 13, 2020](./swc.md)
+- [Information for the Shell/Python/Git workshop on Jan 13, 2020](https://carpentries-uconn.github.io/2020-01-13-uconn)
+- [Additional setup information for the Shell/Python/Git workshop on Jan 13, 2020](./swc.md)
 
 
 Contact info:<br>
