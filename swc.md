@@ -36,6 +36,15 @@ Be patient!
 
 There is one more step required, but we will do that at the workshop.
 
+### Data Files
+
+The exercises in the course make use of some data files and you should download those so they are available. Put them
+on your desktop or somewhere else you can find them easily.
+
+- [data-shell for the shell lesson](https://swcarpentry.github.io/shell-novice/data/data-shell.zip)
+- [gapminder data for the python lesson](https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip)
+
+
 See you soon!
 
 
