@@ -5,6 +5,10 @@ Work:
 - [Cleverly Titled Blog](https://jeremy9959.github.io/Blog) on data science, beginning with my sabbatical at
 [The Jackson Laboratory for Genomic Medicine](http:/www.jax.org) during Academic Year 2018-2019.
 - [Talks](https://github.uconn.edu/pages/jet08013/Talks/)
+- [Clustering Seminar, Fall, 2019](http://jeremy9959.net/Clustering-Seminar)
+
+Teaching:
+- [Transition to Higher Mathematics](https://jeremy9959.net/Math-2710-Fall-2019), UConn, Fall, 2019
 - [Mathematical Aspects of Machine Learning](https://jeremy9959.net/Math-5800-Spring-2020), Course, UConn, Spring 2020.
 
 Fun:
@@ -14,7 +18,8 @@ a little time to start.
 
 Software Carpentries Workshop:
 
-[Additional setup information for the Shell/Python/Git workshop on Jan 13, 2020](./swc.md)
+- [Information for the Shell/Python/Git workshop on Jan 13, 2020](https://carpentries-uconn.github.io/2020-01-13-uconn)
+- [Additional setup information for the Shell/Python/Git workshop on Jan 13, 2020](./swc.md)
 
 
 Contact info:<br>
