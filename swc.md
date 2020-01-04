@@ -43,7 +43,7 @@ on your desktop or somewhere else you can find them easily.
 
 - [data-shell for the shell lesson](https://swcarpentry.github.io/shell-novice/data/data-shell.zip)
 - [gapminder data for the python lesson](https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip)
-
+- [full gapminder data](./data/gapminder_data.csv)
 
 See you soon!
 
