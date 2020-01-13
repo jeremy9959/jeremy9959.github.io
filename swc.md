@@ -45,6 +45,11 @@ on your desktop or somewhere else you can find them easily.
 - [gapminder data for the python lesson](https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip)
 - [full gapminder data](./data/gapminder_data.csv)
 
+
+### Python session Notes
+
+[Notes from Monday Afternoon Session](./Python-1.html)
+
 ### Additional Help
 
 This [pandas cheat sheet](./data/Pandas_Cheat_Sheet.pdf) is useful to have around.
