@@ -49,6 +49,7 @@ on your desktop or somewhere else you can find them easily.
 ### Python session Notes
 
 [Notes from Monday Afternoon Session](./Python-1.html)
+[Notes from Tuessday Morning Session](./Python-2.html)
 
 ### Additional Help
 
