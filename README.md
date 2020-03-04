@@ -15,6 +15,8 @@ Fun:
 
 [Browse tSNE clustering of 5000 fashion-MNIST images](https://tsne-fashion.herokuapp.com) -- hosted externally so takes
 a little time to start.
+[Bokeh Theme Builder](https://bokehthemebuilder.herokuapp.com) -- a tool to build themes for the plotting package [bokeh](http://bokeh.pydata.org).
+
 
 Software Carpentries Workshop:
 
