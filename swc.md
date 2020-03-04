@@ -36,6 +36,26 @@ Be patient!
 
 There is one more step required, but we will do that at the workshop.
 
+### Data Files
+
+The exercises in the course make use of some data files and you should download those so they are available. Put them
+on your desktop or somewhere else you can find them easily.
+
+- [data-shell for the shell lesson](https://swcarpentry.github.io/shell-novice/data/data-shell.zip)
+- [gapminder data for the python lesson](https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip)
+- [full gapminder data](./data/gapminder_data.csv)
+
+
+### Python session Notes
+
+[Notes from Monday Afternoon Session](./Python-1.html)
+
+[Notes from Tuessday Morning Session](./Python-2.html)
+
+### Additional Help
+
+This [pandas cheat sheet](./data/Pandas_Cheat_Sheet.pdf) is useful to have around.
+
 See you soon!
 
 

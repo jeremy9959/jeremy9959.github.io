@@ -1,5 +1,7 @@
 # Jeremy Teitelbaum
 
+[UConn Homepage with publications, etc.](https://teitelbaum.math.uconn.edu)
+
 Work:
 
 - [Cleverly Titled Blog](https://jeremy9959.github.io/Blog) on data science, beginning with my sabbatical at
@@ -16,6 +18,7 @@ Fun:
 [Browse tSNE clustering of 5000 fashion-MNIST images](https://tsne-fashion.herokuapp.com) -- hosted externally so takes
 a little time to start.
 [Bokeh Theme Builder](https://bokehthemebuilder.herokuapp.com) -- a tool to build themes for the plotting package [bokeh](http://bokeh.pydata.org).
+[Polya's Urn](https://polyas-urn.herokuapp.com)
 
 
 Software Carpentries Workshop:
@@ -32,4 +35,3 @@ Storrs, CT 06269<br>
 <br>
 
 email: firstname.lastname at uconn.edu<br>
-[homepage](https://teitelbaum.math.uconn.edu)
