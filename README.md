@@ -23,10 +23,6 @@ a little time to start.
 library that I've gotten quite interested in.  This is the output of a tool that shows the structure of
 a bokeh plot interactively.
 
-Software Carpentries Workshop: 
-
-- [Information for the Shell/Python/Git workshop on Jan 13, 2020](https://carpentries-uconn.github.io/2020-01-13-uconn)
-- [Additional setup information for the Shell/Python/Git workshop on Jan 13, 2020](./swc.md)
 
 Seder Information (April, 2020):
 
