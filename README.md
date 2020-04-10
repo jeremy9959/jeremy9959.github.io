@@ -31,7 +31,7 @@ Software Carpentries Workshop:
 Seder Information (April, 2020):
 
 - [Haggadah](http://www.sefaria.org/Pesach_Haggadah?lang=bi)
-- [Dayyenu](seder/dayyenu.md)
+- [Dayyenu](seder/dayyenu.html)
 - [Chad Gadya](seder/ChadGadya.pdf)
 - [Adir Hu](seder/adir_hu.pdf)
 - [Ma Nishtana](seder/MaNishtana.pdf)
