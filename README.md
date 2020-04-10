@@ -23,7 +23,7 @@ a little time to start.
 library that I've gotten quite interested in.  This is the output of a tool that shows the structure of
 a bokeh plot interactively.
 
-Software Carpentries Workshop:
+Software Carpentries Workshop: 
 
 - [Information for the Shell/Python/Git workshop on Jan 13, 2020](https://carpentries-uconn.github.io/2020-01-13-uconn)
 - [Additional setup information for the Shell/Python/Git workshop on Jan 13, 2020](./swc.md)
@@ -31,7 +31,7 @@ Software Carpentries Workshop:
 Seder Information (April, 2020):
 
 - [Haggadah](http://www.sefaria.org/Pesach_Haggadah?lang=bi)
-- [Dayyenu](seder/dayyenu.png)
+- [Dayyenu](seder/dayyenu.md)
 - [Chad Gadya](seder/ChadGadya.pdf)
 - [Adir Hu](seder/adir_hu.pdf)
 - [Ma Nishtana](seder/MaNishtana.pdf)
