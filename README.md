@@ -24,6 +24,14 @@ Software Carpentries Workshop:
 - [Information for the Shell/Python/Git workshop on Jan 13, 2020](https://carpentries-uconn.github.io/2020-01-13-uconn)
 - [Additional setup information for the Shell/Python/Git workshop on Jan 13, 2020](./swc.md)
 
+Seder Information (April, 2020):
+
+- [Chad Gadya](seder/ChadGadya.pdf)
+- [Adir Hu](seder/adir_hu.pdf)
+- [Ma Nishtana](seder/MaNishtana.pdf)
+- [Echad Mi Yodea](seder/echad_mi_yodea.pdf)
+
+
 
 Contact info:<br>
 Monteith Hall 231<br>
