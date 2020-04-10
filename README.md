@@ -15,9 +15,13 @@ Teaching:
 
 Fun:
 
-[Browse tSNE clustering of 5000 fashion-MNIST images](https://tsne-fashion.herokuapp.com) -- hosted externally so takes
+- [Browse tSNE clustering of 5000 fashion-MNIST images](https://tsne-fashion.herokuapp.com) -- hosted externally so takes
 a little time to start.
-[Polya's Urn](https://polyas-urn.herokuapp.com)
+- [Bokeh Theme Builder](https://bokehthemebuilder.herokuapp.com) -- a tool to build themes for the plotting package [bokeh](http://bokeh.pydata.org).
+- [Polya's Urn](https://polyas-urn.herokuapp.com)
+- [Disassembling a Bokeh Model](./structure_graph.html) -- [bokeh](http://bokeh.pydata.org) is a visualization
+library that I've gotten quite interested in.  This is the output of a tool that shows the structure of
+a bokeh plot interactively.
 
 Software Carpentries Workshop:
 
