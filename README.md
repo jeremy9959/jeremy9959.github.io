@@ -33,6 +33,9 @@ Seder Information (April, 2020):
 - [Ma Nishtana](seder/MaNishtana.pdf)
 - [Echad Mi Yodea](seder/echad_mi_yodea.pdf)
 
+- [Freedom Quotes I](seder/freedom.md)
+- [Freedom Quotes II](seder/freedom.pdf)
+- [Freedom Quotes III (Hartmann Haggada)](seder/hartmann.pdf)
 
 
 Contact info:<br>
