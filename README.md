@@ -24,19 +24,6 @@ library that I've gotten quite interested in.  This is the output of a tool that
 a bokeh plot interactively.
 
 
-Seder Information (April, 2020):
-
-- [Haggadah](http://www.sefaria.org/Pesach_Haggadah?lang=bi)
-- [Dayyenu](seder/dayyenu.html)
-- [Chad Gadya](seder/ChadGadya.pdf)
-- [Adir Hu](seder/adir_hu.pdf)
-- [Ma Nishtana](seder/MaNishtana.pdf)
-- [Echad Mi Yodea](seder/echad_mi_yodea.pdf)
-
-- [Freedom Quotes (from Women)](seder/freedom.md)
-- [More Freedom Quotes II](seder/freedom.pdf)
-- [Even more Freedom Quotes III (Hartmann Haggada)](seder/hartmann.pdf)
-
 
 Contact info:<br>
 Monteith Hall 231<br>
