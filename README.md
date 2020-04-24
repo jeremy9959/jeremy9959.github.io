@@ -30,6 +30,7 @@ Monteith Hall 231<br>
 Department of Mathematics<br>
 University of Connecticut<br>
 Storrs, CT 06269<br>
+(currently working from home)<br>
 <br>
 
 email: firstname.lastname at uconn.edu<br>
