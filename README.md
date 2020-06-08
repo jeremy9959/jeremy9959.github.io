@@ -13,7 +13,7 @@ Teaching:
 - [Transition to Higher Mathematics](https://jeremy9959.net/Math-2710-Fall-2019), UConn, Fall, 2019
 - [Mathematical Aspects of Machine Learning](https://jeremy9959.net/Math-5800-Spring-2020), Course, UConn, Spring 2020.
 
-Fun:
+Machine Learning Visualization and related Projects:
 
 - [Browse tSNE clustering of 5000 fashion-MNIST images](https://tsne-fashion.herokuapp.com) -- hosted externally so takes
 a little time to start.
@@ -22,6 +22,8 @@ a little time to start.
 - [Disassembling a Bokeh Model](./structure_graph.html) -- [bokeh](http://bokeh.pydata.org) is a visualization
 library that I've gotten quite interested in.  This is the output of a tool that shows the structure of
 a bokeh plot interactively.
+- [Bokeh, Bokehjs, and Observablehq](https://towardsdatascience.com/bokeh-bokehjs-and-observablehq-6ddf0c5ffe8a)
+- [Visualizing the SVM problem](https://observablehq.com/@jeremy9959/svm) - a work in progress using [d3.js](https://d3js.org) and [Observable](https://observablehq.com).
 
 
 
