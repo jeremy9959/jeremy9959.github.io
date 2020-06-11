@@ -1,7 +1,7 @@
 # Jeremy Teitelbaum
 
 
-![SMO](./smo.gif)
+<img src='./smo.gif' width='300'>
 
 
 [UConn Homepage with publications, etc.](https://teitelbaum.math.uconn.edu)
