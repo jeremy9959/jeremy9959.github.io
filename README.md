@@ -29,7 +29,7 @@ library that I've gotten quite interested in.  This is the output of a tool that
 a bokeh plot interactively.
 - [Bokeh, Bokehjs, and Observablehq](https://towardsdatascience.com/bokeh-bokehjs-and-observablehq-6ddf0c5ffe8a)
 - [Visualizing the SVM problem](https://observablehq.com/@jeremy9959/svm) - a work in progress using [d3.js](https://d3js.org) and [Observable](https://observablehq.com).
-- The image at the top of this page shows the SMO algorithm finding the closest points in two linearly separable convex sets.  See [this observable notebook.](https://observablehq.com/@jeremy9959/smo-algorithm).
+- The image at the top of this page shows the SMO algorithm finding the closest points in two linearly separable convex sets.  See [this observable notebook](https://observablehq.com/@jeremy9959/smo-algorithm).
 
 
 **Contact info:**<br>
