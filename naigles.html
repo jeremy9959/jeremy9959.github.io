@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+  <script src='http://d3js.org/d3.v5.min.js'></script>
+</head>
+<body>
+<h1> Mark's Game </h1>
+<script>
+    var clicks = d3.local() ;
+    var freeze = false ; 
+    var player = d3.local() ;
+
+    function increment() {
+	var ctr = clicks.get(svg)+1
+	console.log(ctr);
+	if(!freeze) {
+	    clicks.set(svg, ctr) ; 
+	    if (ctr % 3 ==0) {
+		freeze=true ;
+		clicks.set(svg,0) ;
+	    }
+	}
+    }
+
+    function triangle(x) {
+	const s = Math.floor((1+Math.sqrt(1+8*x))/2) 
+	console.log(s)
+	return s-1
+    }
+
+    function rows(x) {
+	const base = triangle(x) ; 
+	var result = d3.range(base,0,-1) ; 
+	var rest = x-(base*(base+1)/2) ; 
+	for(let i=0;rest>0;i++) {
+	    rest -= 1 ; 
+	    result[i] += 1
+	}  
+	return result
+    }
+
+
+    function fadeout(d,i) {
+	if(!freeze) {
+	    d3.select(this).attr('fill',player.get(svg)).transition().attr('opacity',.1)
+	}
+    }
+    
+    function circle_row(sel,x,y,r,n) {
+	var centers = d3.range(n).map(d=>({cx:x+d*2*r, cy:y}))
+
+	var circles = sel.selectAll('circle')
+	    .data(centers)
+	    .join('circle')
+	    .attr('cx',d=>d.cx)
+	    .attr('cy',d=>d.cy)
+	    .attr('r',r)
+	    .attr('fill','#DEB877')
+	    .attr('opacity',1)
+	    .on('click',fadeout)
+
+	return circles
+    }
+
+    function setup(n) {
+	svg.selectAll('g').remove()
+	var lens = rows(n) ; 
+	console.log(lens)
+	var y=400
+	var x=300
+	const r=20
+	const longest = lens[0]
+	for (let i=0;i<lens.length;i++) {
+	    const delta = longest - lens[i]
+	    svg.append('g').attr('id',i).call(circle_row,x+delta*r,y-2*r*i,r,lens[i])
+	}
+	
+
+    }	
+
+  function endTurn() {
+      var p = player.get(svg) ;
+      p = (p=='blue'?'red':'blue')
+      player.set(svg,p)
+      clicks.set(svg,0)
+      freeze = false  
+      button.style('background-color',p)
+  }
+
+  function startup() {
+      svg.selectAll('circle').attr('opacity',1)
+      clicks.set(svg,0)
+      player.set(svg,'blue')
+      button.style('background-color','blue')
+  }
+    
+  svg = d3.select('body').append('svg').attr('width',800).attr('height',500) ; 
+  bstyle = `width:2in;height:1in;background-color:blue;font-size:16pt`
+  button = d3.select('body')
+    .append('input')
+    .attr('type','button')
+    .attr('value','End Turn')
+    .style('width','1.5in')
+    .style('height','.75in')
+    .style('color','white')
+    .on('click',endTurn)
+  
+
+    svg.on('click',increment) ; 
+    setup(16) ;
+    startup() ; 
+
+    
+
+
+
+
+  </script>
+</body>
+</html>
