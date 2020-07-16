@@ -14,11 +14,10 @@
 - [Clustering Seminar, Fall, 2019](http://jeremy9959.net/Clustering-Seminar)
 
 ### Teaching:
-- [Transition to Higher Mathematics](https://jeremy9959.net/Math-2710-Fall-2019), UConn, Fall, 2019
+- [Transition to Higher Mathematics](https://jeremy9959.net/2020-Fall-2710W-Math), UConn, Fall, 2020
 - [Mathematical Aspects of Machine Learning](https://jeremy9959.net/Math-5800-Spring-2020), Course, UConn, Spring 2020.
 
 ### Machine Learning Visualization and related Projects:
-
 
 - [Browse tSNE clustering of 5000 fashion-MNIST images](https://tsne-fashion.herokuapp.com) -- hosted externally so takes
 a little time to start.
