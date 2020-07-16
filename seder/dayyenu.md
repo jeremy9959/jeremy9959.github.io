@@ -1,3 +1,0 @@
-## Dayyenu
-
-![](./dayyenu.png)
