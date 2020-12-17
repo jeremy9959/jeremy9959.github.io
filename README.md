@@ -14,7 +14,7 @@
 - [Clustering Seminar, Fall, 2019](http://jeremy9959.net/Clustering-Seminar)
 
 ### Teaching:
-- [Transition to Higher Mathematics](https://jeremy9959.net/2020-Fall-2710W-Math), UConn, Fall, 2020
+- [Transition to Higher Mathematics](https://jeremy9959.net/2020-Fall-2710W-Math), UConn, Fall, 2020. Thanks to the pandemic, this link takes you to pretty complete materials for an online course including links to video lectures.
 - [Mathematical Aspects of Machine Learning](https://jeremy9959.net/Math-5800-Spring-2020), Course, UConn, Spring 2020.
 
 ### Machine Learning Visualization and related Projects:
