@@ -17,6 +17,7 @@
 This is an undergraduate topics course co-taught with [Kyu-Hwan Lee](https://www2.math.uconn.edu/~khlee/)
 - [Mathematical Aspects of Machine Learning](https://jeremy9959.net/Math-5800-Spring-2020), Course, UConn, Spring 2020.
 This was a Master's level, project-based seminar course.
+
 ### Machine Learning Visualization and related Projects:
 
 - [Bokeh Theme Builder](https://bokehthemebuilder.herokuapp.com) -- a tool to build themes for the plotting package [bokeh](http://bokeh.pydata.org).
