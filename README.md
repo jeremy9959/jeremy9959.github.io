@@ -30,21 +30,17 @@ a bokeh plot interactively.
 points in the convex hull of two linearly separable point sets.  The animation at the top of this page
 came from this notebook.
 
-<<<<<<< HEAD
 ### Banjo
 
 I'm a student of clawhammer and two-finger style old-time banjo.  Here is a two-finger arrangement of New Five Cent
 I wrote as an "assignment" by my teacher [Matt Brown](https://twofingerbanjo.com),
 
-![New Five Cent](http://jeremy9959.net/BanjoTab/NFC.png){width = 30%}
-
+![New Five Cent](http://jeremy9959.net/BanjoTab/NFC.png)
 [Here is the tool I wrote to help with writing this sort of tablature using lilypond](https://jeremy9959.net/BanjoTab)
 
 
 
 
-=======
->>>>>>> e01b36b5a08a94518a6466e4c6364ba37ae99857
 **Contact info:**<br>
 Monteith Hall 231<br>
 Department of Mathematics<br>
