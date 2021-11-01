@@ -20,6 +20,7 @@ This was a Master's level, project-based seminar course.
 
 ### Machine Learning Visualization and related Projects:
 
+- [Wallpaper Groups](https://observablehq.com/@jeremy9959/the-plane-symmetry-groups/2) -- visualization of the 17 plane symmetry groups
 - [Bokeh Theme Builder](https://bokehthemebuilder.herokuapp.com) -- a tool to build themes for the plotting package [bokeh](http://bokeh.pydata.org).
 - [Polya's Urn](https://polyas-urn.herokuapp.com)
 - [Disassembling a Bokeh Model](./structure_graph.html) -- [bokeh](http://bokeh.pydata.org) is a visualization
