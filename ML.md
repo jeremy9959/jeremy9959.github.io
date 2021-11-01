@@ -12,8 +12,7 @@
 - [Multivariate Regression - Calculus](https://www.youtube.com/watch?v=_-HrPrkpsjY&list=PLHmPFY5Rz0RCWU4ra8aqBM7AvrGdPDOhR&index=4)
 - [Multivariate Regression - Geometry](https://www.youtube.com/watch?v=E3hyjNeD9AA&list=PLHmPFY5Rz0RCWU4ra8aqBM7AvrGdPDOhR&index=5)
 - [Multivariate Regression - Centered Coordinates](https://www.youtube.com/watch?v=mTasFUNob54&list=PLHmPFY5Rz0RCWU4ra8aqBM7AvrGdPDOhR&index=7)
-- [Intro to Bayesian Inference](https://youtu.be/sk1elwY_Ggo)
-- [Bayesian Coin Flipping](https://youtu.be/NHfQ_88y0CE)
+
 	
 **Lab:**  Linear Regression lab - includes datafiles and ipynb file. [zip](https://jeremy9959.net/published_notes/notes/RegressionLab.zip) [tgz](https://jeremy9959.net/published_notes/notes/RegressionLab.tgz)
 
@@ -34,6 +33,8 @@
 - [Probability - Random Variables 2](https://www.youtube.com/watch?v=7RH04w7dWp0&list=PLHmPFY5Rz0RDVDokDgADG9CfmBhwZLF9M&index=6)
 - [Probability - Expectation and Variance](https://www.youtube.com/watch?v=7RH04w7dWp0&list=PLHmPFY5Rz0RDVDokDgADG9CfmBhwZLF9M&index=7)
 - [Probability - Statistical Models](https://www.youtube.com/watch?v=7RH04w7dWp0&list=PLHmPFY5Rz0RDVDokDgADG9CfmBhwZLF9M&index=8)
+- [Intro to Bayesian Inference](https://youtu.be/sk1elwY_Ggo)
+- [Bayesian Coin Flipping](https://youtu.be/NHfQ_88y0CE)
 
 **Lab:** Naive Bayes Lab - includes datafiles and ipynb file. [zip](https://jeremy9959.net/published_notes/notes/naive_bayes.zip) [tgz](https://jeremy9959.net/published_notes/notes/naive_bayes.pdf)
 
