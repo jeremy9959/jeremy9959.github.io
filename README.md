@@ -11,7 +11,7 @@
 - [Lectures (and Videos) on topics in Machine Learning](ML.html)
 
 ### Teaching:
-- [Abstract Algebra (under development)](https://jeremy9959.net/2021-Fall-3230-Math), UConn, Fall 2021.  Materials for the Intro to Abstract Algebra Course at UConn.  Videos and Notes. 
+- [Abstract Algebra](https://jeremy9959.net/2021-Fall-3230-Math), UConn, Fall 2021.  Materials for the Intro to Abstract Algebra Course at UConn. Based on [Judson's Abstract Algebra](http://abstract.ups.edu/) book.  Videos and Notes. 
 - [Transition to Higher Mathematics](https://jeremy9959.net/2020-Fall-2710W-Math), UConn, Fall, 2020. Thanks to the pandemic, this link takes you to pretty complete materials for an online course including links to video lectures.
 - [Honors Seminar on Machine Learning](https://jeremy9959.net/Math-3094-Spring-2021), Course, UConn, Spring 2021.
 This is an undergraduate topics course co-taught with [Kyu-Hwan Lee](https://www2.math.uconn.edu/~khlee/)
