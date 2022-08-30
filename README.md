@@ -13,7 +13,7 @@
 ### Teaching:
 
 During Fall of 2022, I will be teaching the graduate abstract algebra course, Math 5210,
-at UConn.  Course materials are under development. 
+at UConn. [The course homepage is available here.](http://jeremy9959/Math-5210) 
 
 ### Course Materials
 
