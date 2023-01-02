@@ -14,7 +14,7 @@
 
 During Spring of 2023, I will be teaching:
 
-- Part 2 of the graduate abstract algebra course, Math 5211. [The course homepage is available here.](http://jeremy9959/Math-5211) 
+- Part 2 of the graduate abstract algebra course, Math 5211. [The course homepage is available here.](http://jeremy9959.net/Math-5211) 
 - Math for Machine Learning, Math 3094 (to be renumbered Math 3180 next year). [The course homepage is available here.](https://jeremy9959.net/Math-3094-UConn)
 
 
