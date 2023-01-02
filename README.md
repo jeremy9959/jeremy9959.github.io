@@ -12,14 +12,16 @@
 
 ### Teaching:
 
-During Fall of 2022, I will be teaching the graduate abstract algebra course, Math 5210,
-at UConn. [The course homepage is available here.](http://jeremy9959/Math-5210) 
+During Spring of 2023, I will be teaching:
+
+- Part 2 of the graduate abstract algebra course, Math 5211. [The course homepage is available here.](http://jeremy9959/Math-5211) 
+- Math for Machine Learning, Math 3094 (to be renumbered Math 3180 next year). [The course homepage is available here.](https://jeremy9959.net/Math-3094-UConn)
+
 
 ### Course Materials
 
 - [Abstract Algebra](https://jeremy9959.net/2021-Fall-3230-Math) Materials for the Intro to Abstract Algebra Course at UConn. Based on [Judson's Abstract Algebra](http://abstract.ups.edu/) book.  Videos and Notes. 
 - [Transition to Higher Mathematics](https://jeremy9959.net/2020-Fall-2710W-Math),  Materials for the "Intro to Proofs" course at UConn.  Follows [The Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/) by Hammack.  Videos and Notes.
-- [Honors Seminar on Machine Learning](https://jeremy9959.net/Math-3094-UConn), Course, UConn, Spring 2022.  Notes and videos on selected topics.
 
 ### Machine Learning Visualization and related Projects:
 
