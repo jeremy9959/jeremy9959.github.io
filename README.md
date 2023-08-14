@@ -5,7 +5,7 @@
 
 [UConn Homepage with publications, etc.](https://teitelbaum.math.uconn.edu)
 
-## Data Science
+### Data Science
 
 I am the Director of UConn's [MS in Data Science](https://masters.datascience.uconn.edu), a one-year professional Master's degree.
 
