@@ -47,9 +47,9 @@ I wrote as an "assignment" by my teacher [Matt Brown](https://twofingerbanjo.com
 [Here is the tool I wrote to help with writing this sort of tablature using lilypond](https://jeremy9959.net/BanjoTab).
 
 
-<--
+<!---
 [![Jeremy's GitHub stats](https://github-readme-stats.vercel.app/api?username=jeremy9959)](https://github.com/anuraghazra/github-readme-stats)
--->
+--->
 
 **Contact info:**<br>
 Monteith Hall 231<br>
