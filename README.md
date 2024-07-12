@@ -1,6 +1,5 @@
 # Jeremy Teitelbaum
 
-
 <img src='./smo.gif' width='300'>
 
 [UConn Homepage with publications, etc.](https://teitelbaum.math.uconn.edu)
@@ -9,34 +8,32 @@
 
 I am the Director of UConn's [MS in Data Science](https://masters.datascience.uconn.edu), a one-year professional Master's degree.
 
-
-
 ### Work
 
 - [Lectures (and Videos) on topics in Machine Learning](ML.html)
 
 ### Teaching
 
-During Fall of 2023, I will be teaching:
+During Fall of 2024, I will be teaching:
 
-- The introductory course *Fundamentals of Data Science* (Grad 5100) for the new [MS program in Data Science](https://masters.datascience.uconn.edu).
-- Introduction to Abstract Algebra, Math 3230.  [The course home page is available here.](https://jeremy9959.net/Math-3230-UConn/)
+- The introductory course _Fundamentals of Data Science_ (Grad 5100) for the [MS program in Data Science](https://masters.datascience.uconn.edu).
+- Introduction to Linear Algebra, Math 2210Q.
 
 ### Course Materials
 
-- [Abstract Algebra](https://jeremy9959.net/2021-Fall-3230-Math) Materials for the Intro to Abstract Algebra Course at UConn. Based on [Judson's Abstract Algebra](http://abstract.ups.edu/) book.  Videos and Notes. 
-- [Transition to Higher Mathematics](https://jeremy9959.net/2020-Fall-2710W-Math),  Materials for the "Intro to Proofs" course at UConn.  Follows [The Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/) by Hammack.  Videos and Notes.
+- [Abstract Algebra](https://jeremy9959.net/2021-Fall-3230-Math) Materials for the Intro to Abstract Algebra Course at UConn. Based on [Judson's Abstract Algebra](http://abstract.ups.edu/) book. Videos and Notes.
+- [Transition to Higher Mathematics](https://jeremy9959.net/2020-Fall-2710W-Math), Materials for the "Intro to Proofs" course at UConn. Follows [The Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/) by Hammack. Videos and Notes.
 
 ### Machine Learning Visualization and related Projects:
 
 - [Wallpaper Groups](https://observablehq.com/@jeremy9959/the-plane-symmetry-groups/2) -- visualization of the 17 plane symmetry groups
 - [Disassembling a Bokeh Model](./structure_graph.html) -- [bokeh](http://bokeh.pydata.org) is a visualization
-library that I've gotten quite interested in.  This is the output of a tool that shows the structure of
-a bokeh plot interactively.
+  library that I've gotten quite interested in. This is the output of a tool that shows the structure of
+  a bokeh plot interactively.
 - [Bokeh, Bokehjs, and Observablehq](https://towardsdatascience.com/bokeh-bokehjs-and-observablehq-6ddf0c5ffe8a)
 - [Sequential Minimal Optimization](https://observablehq.com/@jeremy9959/smo-algorithm) finds the closest
-points in the convex hull of two linearly separable point sets.  The animation at the top of this page
-came from this notebook.
+  points in the convex hull of two linearly separable point sets. The animation at the top of this page
+  came from this notebook.
 
 ### Banjo
 
@@ -45,7 +42,6 @@ I wrote as an "assignment" by my teacher [Matt Brown](https://twofingerbanjo.com
 
 ![New Five Cent](http://jeremy9959.net/BanjoTab/NFC.png)
 [Here is the tool I wrote to help with writing this sort of tablature using lilypond](https://jeremy9959.net/BanjoTab).
-
 
 <!---
 [![Jeremy's GitHub stats](https://github-readme-stats.vercel.app/api?username=jeremy9959)](https://github.com/anuraghazra/github-readme-stats)
