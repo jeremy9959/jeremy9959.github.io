@@ -1,0 +1,207 @@
+<head>
+    <style>
+        body {
+            background-color: rgb(13, 7, 45);
+            color: white;
+        }
+        h1, h2, h3 {
+            text-align: center ; 
+        }
+        .indented-text {
+            display: block;     
+            text-indent: 200px ; 
+        }
+        table {
+            border-collapse: collapse;
+            margin: auto ; 
+        }
+        p {
+          text-align: center ; 
+        }
+        td {
+            border: 2px solid #000;
+            background-color: #725454 ; 
+            color: white ; 
+            font-size: 20px;
+            padding: 8px;
+            width: 70px;
+        }
+        input {
+            margin: auto ; 
+            padding: 8px ; 
+            background-color: #725454 ;
+            color: white;
+            font-size: 20px ; 
+        }
+        .center-button-container {
+          display: flex ; 
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          overflow: auto ; 
+          margin-top: 20px ; 
+          height: auto ; 
+        }
+    </style>
+   </head>
+  <body>
+  <h1>Row Reduction</h1>
+  <h3>Specify Rows and Columns, then click Generate</h3>
+  <div align="center">
+    <label for="rows">Rows (k):</label>
+    <input type="number" id="rows" min="1" value="2" style="width: 70px; height: 30px ; " />
+    <label for="cols">Columns (n):</label>
+    <input type="number" id="cols" min="1" value="2" style="width: 70px; height: 30px ; margin: 10px ; " />
+    <button onclick="generateMatrixInputs()">Generate Matrix</button>
+   </div>
+  <p>
+  <div id="matrix-inputs"></div>
+ </p><p>
+    <div id="process-button" class="center-button-container"></div>
+</p><p>
+    <div id="reduced-matrix"></div>
+  </p>
+  <p>
+    <div id="reduction-steps"  class="center-button-container"></div>
+    </p>
+
+     <script>
+    function generateMatrixInputs() {
+      const rows = parseInt(document.getElementById("rows").value, 10);
+      const cols = parseInt(document.getElementById("cols").value, 10);
+      let inputsHtml =
+        "<h3>Enter Matrix Entries, then click Process:</h3><table>";
+      for (let i = 0; i < rows; i++) {
+        inputsHtml += "<tr>";
+        for (let j = 0; j < cols; j++) {
+          inputsHtml += `<td><input type='text' inputmode="decimal" id='cell-${i}-${j}' style='width: 70px; height:30px ;  border: 1px solid #ccc' /></td>`;
+        }
+        inputsHtml += "</tr>";
+      }
+      inputsHtml += "</table>";
+      document.getElementById("matrix-inputs").innerHTML = inputsHtml;
+      document.getElementById("process-button").innerHTML =
+            `<button id='resumeButton' style="margin:auto ;">Process Matrix</button>`;
+      var button = document.getElementById("resumeButton");
+      button.addEventListener("click", processMatrix);
+    }
+
+    function getEnteredMatrix() {
+      const rows = parseInt(document.getElementById("rows").value, 10);
+      const cols = parseInt(document.getElementById("cols").value, 10);
+      let matrix = [];
+
+      for (let i = 0; i < rows; i++) {
+        let row = [];
+        for (let j = 0; j < cols; j++) {
+          const cellValue = parseFloat(
+            document.getElementById(`cell-${i}-${j}`).value
+          );
+          if (!isNaN(cellValue)) {
+            row.push(cellValue);
+          } else {
+            row.push(0); // Default to 0 if the input is not a number
+          }
+        }
+        matrix.push(row);
+      }
+      return matrix;
+    }
+    function matrixToHtml(matrix) {
+      let html = ' <table style="border-collapse: collapse;">';
+      for (let i = 0; i < matrix.length; i++) {
+        html += "<tr>";
+        for (let j = 0; j < matrix[i].length; j++) {
+          html += `<td style="border: 2px solid #000; font-size: 20px; padding: 8px;">${matrix[
+            i
+          ][j].toFixed(2)}</td>`; // .toFixed(2) for rounding numbers
+        }
+        html += "</tr>";
+      }
+      html += "</table>";
+      return html;
+    }
+
+    function* rowReduce(matrix) {
+      let steps = "";
+      const numRows = matrix.length;
+      const numCols = matrix[0].length;
+      let pivotRow = 0;
+
+      for (let col = 0; col < numCols && pivotRow < numRows; col++) {
+        let pivotFound = false;
+        for (let row = pivotRow; row < numRows; row++) {
+          if (matrix[row][col] !== 0) {
+            pivotFound = true;
+            steps += `Found pivot in column ${col+1} and row ${row+1}<br>`;
+            document.getElementById("reduced-matrix").innerHTML =
+                matrixToHtml(matrix);
+            yield steps;
+            if (row !== pivotRow) {
+              [matrix[pivotRow], matrix[row]] = [matrix[row], matrix[pivotRow]]; // Swap rows
+              steps += `Swap row ${pivotRow+1} with row ${row+1}<br>`;
+              document.getElementById("reduced-matrix").innerHTML =
+                matrixToHtml(matrix);
+              yield steps;
+            }
+            // Normalize the pivot row
+            const pivot = matrix[pivotRow][col];
+            for (let j = col; j < numCols; j++) {
+              matrix[pivotRow][j] /= pivot;
+            }
+            steps += `Normalize pivot row ${pivotRow+1}<br>`;
+            document.getElementById("reduced-matrix").innerHTML =
+              matrixToHtml(matrix);
+            yield steps;
+            // Eliminate all other elements in the current column
+            steps += `Eliminate non-pivot entries in column ${col+1}<br>`;
+            for (let i = 0; i < numRows; i++) {
+              if (i !== pivotRow) {
+                const factor = matrix[i][col];
+                for (let j = col; j < numCols; j++) {
+                  matrix[i][j] -= factor * matrix[pivotRow][j];
+                }
+              }
+            }
+            document.getElementById("reduced-matrix").innerHTML =
+              matrixToHtml(matrix);
+            yield steps;
+            pivotRow++; // Move to the next row for the next pivot
+            break; // Move to the next column
+          }
+        }
+        if (!pivotFound) {
+          steps += `No pivot found in column ${col+1}, move to next column<br>`;
+          document.getElementById("reduced-matrix").innerHTML =
+            matrixToHtml(matrix);
+          yield steps;
+        }
+      }
+      return matrix;
+    }
+    function processMatrix() {
+        const matrix = getEnteredMatrix() ; 
+        const rowReduceGenerator = rowReduce(matrix);
+        var start = rowReduceGenerator.next();
+        var button = document.getElementById("resumeButton");
+        button.removeEventListener("click", processMatrix);
+        button.addEventListener("click", 
+            function(event) { 
+                var s =  rowReduceGenerator.next(); console.log(s) ; 
+                if (!s.done)  {
+                    document.getElementById("reduction-steps").innerHTML = s.value; 
+                } else 
+                {
+                    button.removeEventListener("click", processMatrix); 
+                    button.addEventListener("click", function(event) { location.reload(); });
+                    button.innerHTML = "Done - Click to reload page for new matrix";
+                    button.style.backgroundColor = "red";
+                    button.style.color = "yellow";
+                 }})
+    }
+
+
+
+  </script>
+
+</body>
