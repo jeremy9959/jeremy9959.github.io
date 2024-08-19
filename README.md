@@ -26,6 +26,7 @@ During Fall of 2024, I will be teaching:
 
 ### Machine Learning Visualization and related Projects:
 
+- [Row Reduction (JS)](./rref.html) -- Not machine learning, but useful for linear algebra class. A javascript step-by-step row reduction tool for pedagogical purposes.
 - [Wallpaper Groups](https://observablehq.com/@jeremy9959/the-plane-symmetry-groups/2) -- visualization of the 17 plane symmetry groups
 - [Disassembling a Bokeh Model](./structure_graph.html) -- [bokeh](http://bokeh.pydata.org) is a visualization
   library that I've gotten quite interested in. This is the output of a tool that shows the structure of
