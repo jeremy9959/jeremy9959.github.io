@@ -36,6 +36,11 @@ During Fall of 2024, I will be teaching:
   points in the convex hull of two linearly separable point sets. The animation at the top of this page
   came from this notebook.
 
+### Fun
+
+- [It's Hard to Be Funny as Dean](ItsHardToBeFunnyAsDean.md) -- a song written during my stint as Dean of CLAS at UConn.
+- [I am the very model of a Provost Acadmical](https://www.youtube.com/watch?v=xn_P-lxrju8) -- a pastiche composed in honor of Peter Nicholls's retirement as Provost from UConn.
+
 ### Banjo
 
 I'm a student of clawhammer and two-finger style old-time banjo. Some videos of my playing are available on [my youtube channel](https://www.youtube.com/channel/UCA1BW10SyK-G2AJlajKY99w). Here is a two-finger arrangement of New Five Cent
