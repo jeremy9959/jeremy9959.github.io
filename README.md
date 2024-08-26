@@ -17,7 +17,7 @@ I am the Director of UConn's [MS in Data Science](https://masters.datascience.uc
 During Fall of 2024, I will be teaching:
 
 - The introductory course _Fundamentals of Data Science_ (Grad 5100) for the [MS program in Data Science](https://masters.datascience.uconn.edu).
-- Introduction to Linear Algebra, Math 2210Q.
+- [Introduction to Linear Algebra, Math 2210Q.](Math-2210-UConn)
 
 ### Course Materials
 
