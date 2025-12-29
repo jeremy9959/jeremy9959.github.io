@@ -131,7 +131,7 @@
       for (let col = 0; col < numCols && pivotRow < numRows; col++) {
         let pivotFound = false;
         for (let row = pivotRow; row < numRows; row++) {
-          if (matrix[row][col] !== 0) {
+          if (Math.abs(matrix[row][col]) > 1e-6) {
             pivotFound = true;
             steps += `Found pivot in column ${col+1} and row ${row+1}<br>`;
             document.getElementById("reduced-matrix").innerHTML =
@@ -147,7 +147,8 @@
             // Normalize the pivot row
             const pivot = matrix[pivotRow][col];
             for (let j = col; j < numCols; j++) {
-              matrix[pivotRow][j] /= pivot;
+              matrix[pivotRow][j] = parseFloat((matrix[pivotRow][j]/ pivot).toFixed(10));
+              
             }
             steps += `Normalize pivot row ${pivotRow+1}<br>`;
             document.getElementById("reduced-matrix").innerHTML =
@@ -159,7 +160,7 @@
               if (i !== pivotRow) {
                 const factor = matrix[i][col];
                 for (let j = col; j < numCols; j++) {
-                  matrix[i][j] -= factor * matrix[pivotRow][j];
+                  matrix[i][j] = parseFloat((matrix[i][j] - factor * matrix[pivotRow][j]).toFixed(10));
                 }
               }
             }
@@ -168,6 +169,8 @@
             yield steps;
             pivotRow++; // Move to the next row for the next pivot
             break; // Move to the next column
+          } else {
+            matrix[row][col]=0 ; 
           }
         }
         if (!pivotFound) {
