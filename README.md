@@ -14,11 +14,10 @@ I am the Director of UConn's [MS in Data Science](https://masters.datascience.uc
 
 ### Teaching
 
-During Fall of 2024, I will be teaching:
+During Spring of 2026, I will be teaching:
 
-- The introductory course _Fundamentals of Data Science_ (Grad 5100) for the [MS program in Data Science](https://masters.datascience.uconn.edu).
-- [Introduction to Linear Algebra, Math 2210Q.](https://jeremy9959.net/Math-2210-UConn)
-
+- [Mathematics of Machine Learning](https://jeremy9959.net/Math-3180-UConn)
+ 
 ### Course Materials
 
 - [Abstract Algebra](https://jeremy9959.net/2021-Fall-3230-Math) Materials for the Intro to Abstract Algebra Course at UConn. Based on [Judson's Abstract Algebra](http://abstract.ups.edu/) book. Videos and Notes.
