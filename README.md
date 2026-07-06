@@ -10,11 +10,13 @@
 
 ### Teaching
 
+
 During Fall of 2026, I will be teaching:
 
 - [Linear Algebra, Math 5250](https://jeremy9959/net/Math-5250-UConn)
 - [Transition to Advanced Mathematics, Math 2710W](https://jeremy9959.net/Math-2710-UConn). These course notes follow [The Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/) and include video lectures covering nearly the entire book. 
 
+ 
 ### Course Materials
 
 - [Abstract Algebra](https://jeremy9959.net/2021-Fall-3230-Math) Materials for the Intro to Abstract Algebra Course at UConn. Based on [Judson's Abstract Algebra](http://abstract.ups.edu/) book. Videos and Notes.

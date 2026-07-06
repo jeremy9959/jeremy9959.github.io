@@ -70,7 +70,7 @@
       const rows = parseInt(document.getElementById("rows").value, 10);
       const cols = parseInt(document.getElementById("cols").value, 10);
       let inputsHtml =
-        "<h3>Enter Matrix Entries, then click Process:</h3><table>";
+        "<h3>Enter Matrix Entries, then click the button below:</h3><table>";
       for (let i = 0; i < rows; i++) {
         inputsHtml += "<tr>";
         for (let j = 0; j < cols; j++) {
@@ -81,7 +81,7 @@
       inputsHtml += "</table>";
       document.getElementById("matrix-inputs").innerHTML = inputsHtml;
       document.getElementById("process-button").innerHTML =
-            `<button id='resumeButton' style="margin:auto ;">Process Matrix</button>`;
+            `<button id='resumeButton' style="margin:auto ;">Press for Row Reduction Step on Matrix</button>`;
       var button = document.getElementById("resumeButton");
       button.addEventListener("click", processMatrix);
     }
@@ -193,6 +193,7 @@
                 var s =  rowReduceGenerator.next(); console.log(s) ; 
                 if (!s.done)  {
                     document.getElementById("reduction-steps").innerHTML = s.value; 
+                    button.innerHTML = "Click me again to continue reducing"
                 } else 
                 {
                     button.removeEventListener("click", processMatrix); 
