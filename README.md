@@ -4,37 +4,27 @@
 
 [UConn Homepage with publications, etc.](https://teitelbaum.math.uconn.edu)
 
-### Data Science
-
-I am the Director of UConn's [MS in Data Science](https://masters.datascience.uconn.edu), a one-year professional Master's degree.
-
 ### Work
 
 - [Lectures (and Videos) on topics in Machine Learning](ML.html)
 
 ### Teaching
 
-During Fall of 2024, I will be teaching:
+During Fall of 2026, I will be teaching:
 
-- The introductory course _Fundamentals of Data Science_ (Grad 5100) for the [MS program in Data Science](https://masters.datascience.uconn.edu).
-- [Introduction to Linear Algebra, Math 2210Q.](https://jeremy9959.net/Math-2210-UConn)
+- [Linear Algebra, Math 5250](https://jeremy9959/net/Math-5250-UConn)
+- [Transition to Advanced Mathematics, Math 2710W](https://jeremy9959.net/Math-2710-UConn). These course notes follow [The Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/) and include video lectures covering nearly the entire book. 
 
 ### Course Materials
 
 - [Abstract Algebra](https://jeremy9959.net/2021-Fall-3230-Math) Materials for the Intro to Abstract Algebra Course at UConn. Based on [Judson's Abstract Algebra](http://abstract.ups.edu/) book. Videos and Notes.
-- [Transition to Higher Mathematics](https://jeremy9959.net/2020-Fall-2710W-Math), Materials for the "Intro to Proofs" course at UConn. Follows [The Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/) by Hammack. Videos and Notes.
+- [Algebra I (Math 5210)](https://jeremy9959.net/Math-5210-UConn)
+- [Algebra II (Math 5211)](https://jeremy9959.net/Math-5211-UConn)
 
 ### Machine Learning Visualization and related Projects:
 
 - [Row Reduction (JS)](./rref.html) -- Not machine learning, but useful for linear algebra class. A javascript step-by-step row reduction tool for pedagogical purposes.
 - [Wallpaper Groups](https://observablehq.com/@jeremy9959/the-plane-symmetry-groups/2) -- visualization of the 17 plane symmetry groups
-- [Disassembling a Bokeh Model](./structure_graph.html) -- [bokeh](http://bokeh.pydata.org) is a visualization
-  library that I've gotten quite interested in. This is the output of a tool that shows the structure of
-  a bokeh plot interactively.
-- [Bokeh, Bokehjs, and Observablehq](https://towardsdatascience.com/bokeh-bokehjs-and-observablehq-6ddf0c5ffe8a)
-- [Sequential Minimal Optimization](https://observablehq.com/@jeremy9959/smo-algorithm) finds the closest
-  points in the convex hull of two linearly separable point sets. The animation at the top of this page
-  came from this notebook.
 
 ### Fun
 
